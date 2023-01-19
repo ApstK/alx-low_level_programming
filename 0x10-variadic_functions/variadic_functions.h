@@ -1,5 +1,5 @@
-#ifndef _VARIADIC_FUNCTIONS_
-#define _VARIADIC_FUNCTIONS_
+#ifndef _VARIADIC_FUNCTIONS_H
+#define _VARIADIC_FUNCTIONS_H
 
 #include <stdard.h>
 #include <stdio.h>
@@ -10,4 +10,4 @@ void print_strings(const char *separator, const unsigned int n, ...);
 void print_all(const char * const format, ...);
 
 
-#endif
+#endif /* VARIADIC_FUNCTIONS_H */
